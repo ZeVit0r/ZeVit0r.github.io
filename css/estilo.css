@@ -1,0 +1,73 @@
+body
+{
+	background-color: rgb(37,37,37);
+	color: white;	
+}
+
+.imgPrincipal
+{
+	width: 200px;
+	height: 200px;
+	box-shadow: 10px 10px 10px 5px black;
+	margin-top: 20px;
+}
+
+.txtPrincipal
+{
+	text-align: center;
+}
+
+.principal
+{
+	margin-top: 20px;
+}
+
+.barraNav
+{
+	float: left;
+
+}
+
+.barraNav2
+{
+	float: right;
+	margin-left: 750px;
+}
+
+.botao
+{
+	margin-left: 0px;
+}
+
+.mx-auto
+{
+	border-radius: 50%;
+}
+
+.imgInte
+{
+	text-align: center;
+}
+
+.imgInte2
+{
+	margin: 10px;
+}
+
+.rodape
+{
+	margin-top: 70px;
+	width: 100%;
+	height: 40px;
+}
+
+@keyframes animacao {
+   from {
+      width: 100px; 
+      background: black;
+   }
+   to { 
+     background: yellow;
+      width: 200px;
+   }
+}
